@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Q R Code
+
+# Model Form Field configuration
+form: $/albrightlabs/qrmanager/models/qrcode/fields.yaml
+
+# Model Class name
+modelClass: Albrightlabs\QRManager\Models\QRCode
+
+# Default redirect location
+defaultRedirect: albrightlabs/qrmanager/qrcodes
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: albrightlabs/qrmanager/qrcodes/update/:id
+    redirectClose: albrightlabs/qrmanager/qrcodes
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: albrightlabs/qrmanager/qrcodes
+    redirectClose: albrightlabs/qrmanager/qrcodes
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

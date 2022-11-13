@@ -1,0 +1,36 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        type: text
+        span: full
+    description:
+        label: Description
+        type: textarea
+        size: small
+        span: full
+    type:
+        label: Type
+        type: dropdown
+        options:
+            url: url
+            vcard: vcard
+            text: text
+            email: email
+            sms: sms
+            wifi: wifi
+            bitcoin: bitcoin
+            twitter: twitter
+            facebook: facebook
+            pdf: pdf
+            mp3: mp3
+            appstores: appstores
+            images: images
+        span: auto
+    data:
+        label: Data
+        type: text
+        span: auto

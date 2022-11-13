@@ -1,0 +1,8 @@
+{
+    "name": "albrightlabs/qrmanager-plugin",
+    "type": "october-plugin",
+    "description": "Allows for creation and management of QR codes.",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
