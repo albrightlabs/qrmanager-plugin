@@ -5,9 +5,9 @@ use October\Rain\Database\Schema\Blueprint;
 use October\Rain\Database\Updates\Migration;
 
 /**
- * CreateQRCodesTable Migration
+ * UpdateQRCodesTable Migration
  */
-class CreateQRCodesTable extends Migration
+class UpdateQRCodesTable extends Migration
 {
     public function up()
     {

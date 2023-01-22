@@ -6,3 +6,22 @@ columns:
     id:
         label: ID
         searchable: true
+        width: 1%
+    name:
+        label: Name
+        type: text
+        width: 30%
+        cssClass: text-bold
+        searchable: true
+    type:
+        label: Type
+        type: text
+        width: 20%
+    created_at:
+        label: Created
+        type: date
+        format: n/j/Y g:ia
+    updated_at:
+        label: Updated
+        type: date
+        format: n/j/Y g:ia

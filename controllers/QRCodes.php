@@ -30,6 +30,6 @@ class QRCodes extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Albrightlabs.QRManager', 'qrmanager', 'qrcodes');
+        BackendMenu::setContext('Albrightlabs.QRManager', 'qrcodes');
     }
 }

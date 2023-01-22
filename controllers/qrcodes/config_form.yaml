@@ -3,7 +3,7 @@
 # ===================================
 
 # Record name
-name: Q R Code
+name: QR Code
 
 # Model Form Field configuration
 form: $/albrightlabs/qrmanager/models/qrcode/fields.yaml
@@ -17,13 +17,13 @@ defaultRedirect: albrightlabs/qrmanager/qrcodes
 # Create page
 create:
     title: backend::lang.form.create_title
-    redirect: albrightlabs/qrmanager/qrcodes/update/:id
+    redirect: albrightlabs/qrmanager/qrcodes/preview/:id
     redirectClose: albrightlabs/qrmanager/qrcodes
 
 # Update page
 update:
     title: backend::lang.form.update_title
-    redirect: albrightlabs/qrmanager/qrcodes
+    redirect: albrightlabs/qrmanager/qrcodes/preview/:id
     redirectClose: albrightlabs/qrmanager/qrcodes
 
 # Preview page

@@ -3,6 +3,7 @@
     "type": "october-plugin",
     "description": "Allows for creation and management of QR codes.",
     "require": {
-        "composer/installers": "~1.0"
+        "composer/installers": "~1.0",
+        "chillerlan/php-qrcode": "^4.3"
     }
 }

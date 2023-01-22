@@ -1,6 +1,7 @@
 <?php namespace Albrightlabs\QRManager\Models;
 
 use Model;
+use Albrightlabs\QRManager\Classes\QRManager;
 
 /**
  * QRCode Model
@@ -71,4 +72,12 @@ class QRCode extends Model
         'qr_code' => [\System\Models\File::class, 'delete' => true],
     ];
     public $attachMany = [];
+
+    /**
+     * @return void
+     */
+    public function beforeCreate()
+    {
+        $this->data = QRManager::generate();
+    }
 }

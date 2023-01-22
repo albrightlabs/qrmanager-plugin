@@ -9,7 +9,7 @@ list: $/albrightlabs/qrmanager/models/qrcode/columns.yaml
 modelClass: Albrightlabs\QRManager\Models\QRCode
 
 # List Title
-title: Manage Q R Codes
+title: Manage QR Codes
 
 # Link URL for each record
 recordUrl: albrightlabs/qrmanager/qrcodes/update/:id

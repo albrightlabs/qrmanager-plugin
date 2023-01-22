@@ -16,21 +16,24 @@ fields:
         label: Type
         type: dropdown
         options:
-            url: url
-            vcard: vcard
-            text: text
-            email: email
-            sms: sms
-            wifi: wifi
-            bitcoin: bitcoin
-            twitter: twitter
-            facebook: facebook
-            pdf: pdf
-            mp3: mp3
-            appstores: appstores
-            images: images
-        span: auto
-    data:
-        label: Data
-        type: text
-        span: auto
+            URL: URL
+            Vcard: Vcard
+            Text: Text
+            Email: Email
+            SMS: SMS
+            Wifi: Wifi
+            Bitcoin: Bitcoin
+            Twitter: Twitter
+            Facebook: Facebook
+            PDF: PDF
+            MP3: MP3
+            Appstores: Appstores
+            Images: Images
+        placeholder: -- Select --
+        span: full
+    qr_code:
+        label: QR code
+        type: partial
+        path: field_qr_code
+        context:
+            - preview
